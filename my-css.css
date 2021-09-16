@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3rem; 
+}
+.navbar{
+    background: rgb(202, 245, 218);
+    font-size: large;
+    margin: auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+input{
+    width:30%;
+    height: 3vh;
+    margin-bottom: 1rem;
+    /* padding: 0.5rem; */
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+label{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+#check-number{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 12px;
+    margin-top: 3.2rem;
+}
+.output-text{
+    width: 48%;
+    height: 11vh;
+    color: rgb(233, 165, 152);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 68px;
+}
